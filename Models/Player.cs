@@ -12,6 +12,7 @@ namespace ListEXE.Models
         public int Id { get; set; }
         public int Goals { get; set; }
         public Club Club { get; set; }
+        public string Position { get; set; }
     }
 }
 

@@ -11,5 +11,11 @@ namespace ListEXE.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public string Country { get; set; }
+
+        public int TrophyCount { get; set; }
+
+        public string Stadium { get; set; } 
     }
 }
