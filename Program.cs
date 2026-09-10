@@ -29,6 +29,7 @@ namespace ListEXE
             players.Add(new Player() { Name = "Dor Peretz", Id = 2, Club = clubs["Maccabi_Tel_Aviv"], Goals = 6, Position = "MID" });
             players.Add(new Player() { Name = "Dor Hugi", Id = 3, Club = clubs["Maccabi_Netanya"], Goals = 1, Position = "FWD" });
             players.Add(new Player() { Name = "Dolev Haziza", Id = 4, Club = clubs["Maccabi_Netanya"], Goals = 0, Position = "FWD" });
+            
 
             //linq
             var clubsWithMaccabi = clubs.Values
@@ -38,6 +39,8 @@ namespace ListEXE
             Console.WriteLine("Maccabi clubs:");
 
             clubsWithMaccabi.ForEach(c => Console.WriteLine(c.Name));
+
+            w
 
 
 
