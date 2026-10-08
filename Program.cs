@@ -22,7 +22,7 @@ namespace ListEXE
             clubs["Maccabi_Haifa"] = new Club() { Id = 6, Name = "Maccabi Haifa", Country = "Israel", TrophyCount = 15, Stadium = "Sammy Ofer Stadium" };
             clubs["Bnei_Sakhnin"] = new Club() { Id = 7, Name = "Bnei Sakhnin", Country = "Israel", TrophyCount = 1, Stadium = "Doha Stadium" };
             clubs["Ironi_Kiryat_Shmona"] = new Club() { Id = 8, Name = "Ironi Kiryat Shmona", Country = "Israel", TrophyCount = 1, Stadium = "Ironi Kiryat Shmona Stadium" };
-            c
+            
 
 
 
